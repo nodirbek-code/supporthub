@@ -1,0 +1,25 @@
+version: "3.9"
+
+services:
+  db:
+    image: postgres:16
+    container_name: supporthub_db
+    restart: always
+    environment:
+      POSTGRES_DB: ${DB_NAME:-supporthub}
+      POSTGRES_USER: ${DB_USER:-supporthub_user}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-supporthub_pass}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  redis:
+    image: redis:7
+    container_name: supporthub_redis
+    restart: always
+    ports:
+      - "6379:6379"
+
+volumes:
+  postgres_data:

@@ -1,0 +1,13 @@
+2026-09-02 12:03:12,715 | INFO | User=anon | Method=GET | Path=/ | IP=127.0.0.1 | Status=404 | Duration=0.040s
+2026-09-02 12:03:13,134 | INFO | User=anon | Method=GET | Path=/favicon.ico | IP=127.0.0.1 | Status=404 | Duration=0.007s
+2026-09-02 12:05:47,995 | INFO | User=anon | Method=POST | Path=/api/tickets/ | IP=127.0.0.1 | Status=401 | Duration=0.215s
+2026-09-02 12:12:38,201 | INFO | User=anon | Method=GET | Path=/api/docs/ | IP=127.0.0.1 | Status=200 | Duration=0.164s
+2026-09-02 12:12:42,821 | INFO | User=anon | Method=GET | Path=/api/schema/ | IP=127.0.0.1 | Status=200 | Duration=1.016s
+2026-09-02 12:14:15,127 | INFO | User=anon | Method=GET | Path=/favicon.ico | IP=127.0.0.1 | Status=404 | Duration=0.013s
+2026-09-02 12:14:33,362 | INFO | User=1 | Method=GET | Path=/ | IP=127.0.0.1 | Status=404 | Duration=0.004s
+2026-09-02 12:16:12,082 | INFO | User=anon | Method=GET | Path=/favicon.ico | IP=127.0.0.1 | Status=404 | Duration=0.004s
+2026-09-02 12:19:01,538 | INFO | User=anon | Method=GET | Path=/api/schema/ | IP=127.0.0.1 | Status=200 | Duration=0.046s
+2026-09-02 12:19:37,088 | INFO | User=anon | Method=POST | Path=/api/auth/login/ | IP=127.0.0.1 | Status=400 | Duration=0.035s
+2026-09-02 12:19:43,044 | INFO | User=anon | Method=POST | Path=/api/auth/login/ | IP=127.0.0.1 | Status=400 | Duration=0.002s
+2026-09-02 12:19:55,647 | INFO | User=anon | Method=GET | Path=/api/auth/profile/ | IP=127.0.0.1 | Status=401 | Duration=0.002s
+2026-09-02 12:20:12,345 | INFO | User=anon | Method=PUT | Path=/api/auth/profile/ | IP=127.0.0.1 | Status=401 | Duration=0.002s
